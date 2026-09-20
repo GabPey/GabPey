@@ -146,7 +146,7 @@ def build(theme):
         put("", c["ink"], 1, *r)
     for r in F.rects("COMPUTATIONAL AND MATHEMATICAL BIOLOGIST", 48, 88, 2):
         put("", c["clusters"]["bayes"], 1, *r)
-    hook = "I LIKE COMPUTERS, MATH AND LIFE SCIENCES."
+    hook = "(I LIKE COMPUTERS, MATH AND LIFE SCIENCES.)"
     for r in F.rects(hook, 48, 114, 2):
         put("", c["soft"], 1, *r)
     put("cur", c["clusters"]["learning"], 1, 48 + F.width(hook, 2) + 8, 114, 2 * PX, 14)
