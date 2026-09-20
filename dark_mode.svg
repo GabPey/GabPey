@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1183px" height="650px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1134px" height="670px" font-size="16px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
@@ -14,7 +14,7 @@ size-adjust: 109%;
 .ascii {fill: #8b949e;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1183px" height="650px" fill="#161b22" rx="15"/>
+<rect width="1134px" height="670px" fill="#161b22" rx="15"/>
 <text x="15" y="30" class="ascii">
 <tspan x="15" y="30">               +*%%%##%%%%#*</tspan>
 <tspan x="15" y="50">          *%@@@@@@@@@@%@@@%@@@#*=</tspan>
@@ -47,34 +47,35 @@ text, tspan {white-space: pre;}
 <text x="456" y="30" fill="#c9d1d9">
 <tspan x="456" y="30">gabriel@marseille</tspan>
 <tspan x="456" y="50"><tspan class="cc">────────────────────────────────────────────</tspan></tspan>
-<tspan x="456" y="70"><tspan class="cc">. </tspan><tspan class="key">OS</tspan><tspan class="cc">: ........... </tspan><tspan class="value">Mexico → Netherlands → Mexico → France → Spain</tspan></tspan>
-<tspan x="456" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Aix-Marseille Université · Marseille, France</tspan></tspan>
-<tspan x="456" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">: ....... </tspan><tspan class="value">M2 Applied Mathematics &amp; Statistics · CMB track</tspan></tspan>
-<tspan x="456" y="130"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc">: ....... </tspan><tspan class="value">25 years</tspan></tspan>
-<tspan x="456" y="150"><tspan class="cc">. </tspan><tspan class="key">Shell</tspan><tspan class="cc">: ........ </tspan><tspan class="value">Python · R · C++ · Java · Dart</tspan></tspan>
-<tspan x="456" y="170"><tspan class="cc">. </tspan><tspan class="key">Packages</tspan><tspan class="cc">: ..... </tspan><tspan class="value">Pyro · PyTorch · NumPy/SciPy · CUDA · OpenMP</tspan></tspan>
+<tspan x="456" y="70">I like computers, math and life sciences.</tspan>
+<tspan x="456" y="90"></tspan>
+<tspan x="456" y="110"><tspan class="key">- Personal</tspan></tspan>
+<tspan x="456" y="130"><tspan class="cc">. </tspan><tspan class="key">Path</tspan><tspan class="cc">: ......... </tspan><tspan class="value">From Mexico to the world — UNAM · RUG · AMU</tspan></tspan>
+<tspan x="456" y="150"><tspan class="cc">. </tspan><tspan class="key">Age</tspan><tspan class="cc">: .......... </tspan><tspan class="value">25</tspan></tspan>
+<tspan x="456" y="170"><tspan class="cc">. </tspan><tspan class="key">Spoken</tspan><tspan class="cc">: ....... </tspan><tspan class="value">Spanish · English · French · German (learning)</tspan></tspan>
 <tspan x="456" y="190"></tspan>
-<tspan x="456" y="210"><tspan class="key">- Research</tspan></tspan>
-<tspan x="456" y="230"><tspan class="cc">. </tspan><tspan class="key">Inference</tspan><tspan class="cc">: .... </tspan><tspan class="value">Bayesian &amp; variational — SVI, ELBO</tspan></tspan>
-<tspan x="456" y="250"><tspan class="cc">. </tspan><tspan class="key">Sequence</tspan><tspan class="cc">: ..... </tspan><tspan class="value">deep Markov models · HMMs · forward–backward · Viterbi</tspan></tspan>
-<tspan x="456" y="270"><tspan class="cc">. </tspan><tspan class="key">Signals</tspan><tspan class="cc">: ...... </tspan><tspan class="value">cardiac electrical activity · fiber photometry</tspan></tspan>
-<tspan x="456" y="290"><tspan class="cc">. </tspan><tspan class="key">Latest</tspan><tspan class="cc">: ....... </tspan><tspan class="value">PhotoDMM · Abante Lab, Barcelona — paper in prep.</tspan></tspan>
-<tspan x="456" y="310"></tspan>
-<tspan x="456" y="330"><tspan class="key">- Building</tspan></tspan>
-<tspan x="456" y="350"><tspan class="cc">. </tspan><tspan class="key">ConceptVerse</tspan><tspan class="cc">: . </tspan><tspan class="value">a language-learning system, as a 3D concept atlas</tspan></tspan>
-<tspan x="456" y="370"><tspan class="cc">. </tspan><tspan class="key">Stack</tspan><tspan class="cc">: ........ </tspan><tspan class="value">Flutter · Dart · SQLite · spaCy · LLM</tspan></tspan>
-<tspan x="456" y="390"></tspan>
-<tspan x="456" y="410"><tspan class="key">- Languages</tspan></tspan>
-<tspan x="456" y="430"><tspan class="cc">. </tspan><tspan class="key">Programming</tspan><tspan class="cc">: .. </tspan><tspan class="value">Python, R, C++/CUDA, Java, Dart</tspan></tspan>
-<tspan x="456" y="450"><tspan class="cc">. </tspan><tspan class="key">Spoken</tspan><tspan class="cc">: ....... </tspan><tspan class="value">Spanish (native) · English C1 · French C1 · German A2</tspan></tspan>
-<tspan x="456" y="470"></tspan>
-<tspan x="456" y="490"><tspan class="key">- Next</tspan></tspan>
-<tspan x="456" y="510"><tspan class="cc">. </tspan><tspan class="key">Looking for</tspan><tspan class="cc">: .. </tspan><tspan class="value">6-month research internship · Feb–Aug 2027</tspan></tspan>
-<tspan x="456" y="530"><tspan class="cc">. </tspan><tspan class="key">Toward</tspan><tspan class="cc">: ....... </tspan><tspan class="value">doctoral research in statistics &amp; ML for health</tspan></tspan>
-<tspan x="456" y="550"></tspan>
-<tspan x="456" y="570"><tspan class="key">- Contact</tspan></tspan>
-<tspan x="456" y="590"><tspan class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: ........ </tspan><tspan class="value">gpeytralborja@gmail.com</tspan></tspan>
-<tspan x="456" y="610"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: ....... </tspan><tspan class="value">@GabPey</tspan></tspan>
-<tspan x="456" y="630"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ..... </tspan><tspan class="value">gabriel-peytral-borja</tspan></tspan>
+<tspan x="456" y="210"><tspan class="key">- Profile</tspan></tspan>
+<tspan x="456" y="230"><tspan class="cc">. </tspan><tspan class="key">Studying</tspan><tspan class="cc">: ..... </tspan><tspan class="value">M2 Applied Mathematics &amp; Statistics</tspan></tspan>
+<tspan x="456" y="250"><tspan class="cc">. </tspan><tspan class="key">Track</tspan><tspan class="cc">: ........ </tspan><tspan class="value">Computational &amp; Mathematical Biology</tspan></tspan>
+<tspan x="456" y="270"><tspan class="cc">. </tspan><tspan class="key">At</tspan><tspan class="cc">: ........... </tspan><tspan class="value">Aix-Marseille Université, Marseille</tspan></tspan>
+<tspan x="456" y="290"></tspan>
+<tspan x="456" y="310"><tspan class="key">- Interests</tspan></tspan>
+<tspan x="456" y="330"><tspan class="cc">. </tspan><tspan class="key">Bayesian</tspan><tspan class="cc">: ..... </tspan><tspan class="value">statistics, and machine learning built on it</tspan></tspan>
+<tspan x="456" y="350"><tspan class="cc">. </tspan><tspan class="key">Neural nets</tspan><tspan class="cc">: .. </tspan><tspan class="value">from both sides — neuroscience and CS</tspan></tspan>
+<tspan x="456" y="370"><tspan class="cc">. </tspan><tspan class="key">Architecture</tspan><tspan class="cc">: . </tspan><tspan class="value">design patterns, systems meant to be maintained</tspan></tspan>
+<tspan x="456" y="390"><tspan class="cc">. </tspan><tspan class="key">Learning</tspan><tspan class="cc">: ..... </tspan><tspan class="value">the science of learning, and languages</tspan></tspan>
+<tspan x="456" y="410"></tspan>
+<tspan x="456" y="430"><tspan class="key">- Projects</tspan></tspan>
+<tspan x="456" y="450"><tspan class="cc">. </tspan><tspan class="key">photodyn</tspan><tspan class="cc">: ..... </tspan><tspan class="value">variational inference for fiber photometry</tspan></tspan>
+<tspan x="456" y="470"><tspan class="cc">. </tspan><tspan class="key">Thesis</tspan><tspan class="cc">: ....... </tspan><tspan class="value">a fuzzy Takagi–Sugeno model of the heart</tspan></tspan>
+<tspan x="456" y="490"><tspan class="cc">. </tspan><tspan class="key">Cove</tspan><tspan class="cc">: ......... </tspan><tspan class="value">a concept atlas you build yourself, for languages</tspan></tspan>
+<tspan x="456" y="510"></tspan>
+<tspan x="456" y="530"><tspan class="key">- Toolkit</tspan></tspan>
+<tspan x="456" y="550"><tspan class="cc">. </tspan><tspan class="key">Code</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Python · R · C · C++ · Java · Bash</tspan></tspan>
+<tspan x="456" y="570"></tspan>
+<tspan x="456" y="590"><tspan class="key">- Contact</tspan></tspan>
+<tspan x="456" y="610"><tspan class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: ........ </tspan><tspan class="value">gpeytralborja@gmail.com</tspan></tspan>
+<tspan x="456" y="630"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: ....... </tspan><tspan class="value">@GabPey</tspan></tspan>
+<tspan x="456" y="650"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ..... </tspan><tspan class="value">gabriel-peytral-borja</tspan></tspan>
 </text>
 </svg>

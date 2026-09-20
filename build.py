@@ -24,30 +24,31 @@ USER = "gabriel@marseille"
 # (label, value) — label None = blank line; label starting with "-" = section header
 FIELDS = [
     ("-rule", None),
-    ("OS",           "Mexico → Netherlands → Mexico → France → Spain"),
-    ("Host",         "Aix-Marseille Université · Marseille, France"),
-    ("Kernel",       "M2 Applied Mathematics & Statistics · CMB track"),
-    ("Uptime",       "25 years"),
-    ("Shell",        "Python · R · C++ · Java · Dart"),
-    ("Packages",     "Pyro · PyTorch · NumPy/SciPy · CUDA · OpenMP"),
+    ("-hook", "I like computers, math and life sciences."),
     (None, None),
-    ("- Research", None),
-    ("Inference",    "Bayesian & variational — SVI, ELBO"),
-    ("Sequence",     "deep Markov models · HMMs · forward–backward · Viterbi"),
-    ("Signals",      "cardiac electrical activity · fiber photometry"),
-    ("Latest",       "PhotoDMM · Abante Lab, Barcelona — paper in prep."),
+    ("- Personal", None),
+    ("Path",         "From Mexico to the world — UNAM · RUG · AMU"),
+    ("Age",          "25"),
+    ("Spoken",       "Spanish · English · French · German (learning)"),
     (None, None),
-    ("- Building", None),
-    ("ConceptVerse", "a language-learning system, as a 3D concept atlas"),
-    ("Stack",        "Flutter · Dart · SQLite · spaCy · LLM"),
+    ("- Profile", None),
+    ("Studying",     "M2 Applied Mathematics & Statistics"),
+    ("Track",        "Computational & Mathematical Biology"),
+    ("At",           "Aix-Marseille Université, Marseille"),
     (None, None),
-    ("- Languages", None),
-    ("Programming",  "Python, R, C++/CUDA, Java, Dart"),
-    ("Spoken",       "Spanish (native) · English C1 · French C1 · German A2"),
+    ("- Interests", None),
+    ("Bayesian",     "statistics, and machine learning built on it"),
+    ("Neural nets",  "from both sides — neuroscience and CS"),
+    ("Architecture", "design patterns, systems meant to be maintained"),
+    ("Learning",     "the science of learning, and languages"),
     (None, None),
-    ("- Next", None),
-    ("Looking for",  "6-month research internship · Feb–Aug 2027"),
-    ("Toward",       "doctoral research in statistics & ML for health"),
+    ("- Projects", None),
+    ("photodyn",     "variational inference for fiber photometry"),
+    ("Thesis",       "a fuzzy Takagi–Sugeno model of the heart"),
+    ("Cove",         "a concept atlas you build yourself, for languages"),
+    (None, None),
+    ("- Toolkit", None),
+    ("Code",         "Python · R · C · C++ · Java · Bash"),
     (None, None),
     ("- Contact", None),
     ("Email",        "gpeytralborja@gmail.com"),
@@ -69,7 +70,9 @@ def field_lines():
     """Yield (plain_text, svg_markup) per right-column line."""
     rule_len = max(len(USER), 44)
     for label, value in FIELDS:
-        if label == "-rule":
+        if label == "-hook":
+            yield value, e(value)
+        elif label == "-rule":
             txt = "─" * rule_len
             yield txt, f'<tspan class="cc">{txt}</tspan>'
         elif label is None:

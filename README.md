@@ -5,23 +5,19 @@
   </picture>
 </a>
 
-### Selected work
+### A bit more on the three
 
-- **ConceptVerse** — a multilingual concept graph you build yourself, rendered as a navigable 3D
-  star atlas. Solo build: architecture, data model, NLP pipeline, LLM integration, rendering, design
-  system. *Flutter · Dart · SQLite · spaCy*
-- **PhotoDMM** — generative state-space models of neural fiber-photometry recordings, for
-  drug-response profiling. Variational inference in Pyro, with log-space forward–backward and
-  Viterbi decoders validated against brute-force oracles.
-  *Abante Lab, Universitat de Barcelona — paper in preparation*
-- **A Takagi–Sugeno model of the heart** — a discrete fuzzy model of cardiac electrical activity,
-  on a microcontroller, generating ECG signals in real time: about 400% faster, with errors in the
-  millisecond range or below. *Bachelor's thesis, UNAM — funded by CONACYT*
+**photodyn** — variational inference for fiber-photometry signals, written at the Abante Lab in
+Barcelona. Deep Markov models and hidden Markov models under one configurable package, with
+log-space forward–backward and Viterbi decoders checked against brute-force oracles.
 
-Most of what I build lives in private repositories: research code that belongs to a lab, and one
-project that is not ready to be public yet. The card above is the honest summary.
+**The thesis** — a discrete fuzzy Takagi–Sugeno model of the electrical activity of the heart, on a
+microcontroller, generating ECG signals in real time: about 400% faster, with errors in the
+millisecond range or below.
 
----
+**Cove** — a multilingual concept graph you build yourself, drawn as a navigable 3D star atlas.
+Architecture, data model, NLP, rendering and design system are all mine. It exists because I wanted
+a better way to learn German.
 
-*Looking for a six-month research internship from February 2027 — statistical modelling or machine
-learning for health, in a lab or in industry.*
+Most of what I build lives in private repositories: lab code that isn't mine to publish, and one
+project that isn't ready yet.
