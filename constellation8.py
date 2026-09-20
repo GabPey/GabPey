@@ -37,30 +37,30 @@ NODES = {
  "arch":  (252, 444, "ARCHITECTURE", "systems"),
  "pat":   (144, 496, "PATTERNS", "systems"),
  "rep":   (208, 552, "REPRODUCIBLE", "systems"),
- "learn": (788, 444, "LEARNING", "learning"),
- "lang":  (884, 496, "4 LANGUAGES", "learning"),
- "de":    (820, 552, "GERMAN", "learning"),
- "photodyn": (500, 224, "PHOTODYN", None),
+ "assoc": (788, 444, "ASSOCIATION", "learning"),
+ "org":   (884, 496, "ORGANIZATION", "learning"),
+ "morph": (820, 552, "MORPHOLOGY", "learning"),
+ "photosvi": (500, 224, "PHOTOSVI", None),
  "heart":    (500, 356, "THE HEART", None),
  "cove":     (500, 476, "COVE", None),
 }
-PROJ = {"photodyn", "heart", "cove"}
+PROJ = {"photosvi", "heart", "cove"}
 
 EDGES = [
  ("vi","ssm"),("ssm","pp"),("vi","pp"),
  ("neu","dl"),("dl","phys"),("neu","phys"),
  ("arch","pat"),("pat","rep"),("arch","rep"),
- ("learn","lang"),("lang","de"),("learn","de"),
- ("photodyn","vi"),("photodyn","ssm"),("photodyn","dl"),("photodyn","neu"),
+ ("assoc","org"),("org","morph"),("assoc","morph"),
+ ("photosvi","vi"),("photosvi","ssm"),("photosvi","dl"),("photosvi","neu"),
  ("heart","ssm"),("heart","phys"),("heart","vi"),
- ("cove","arch"),("cove","pat"),("cove","learn"),("cove","lang"),("cove","de"),
- ("photodyn","heart"),("heart","cove"),          # the spine
+ ("cove","arch"),("cove","pat"),("cove","assoc"),("cove","org"),("cove","morph"),
+ ("photosvi","heart"),("heart","cove"),          # the spine
 ]
 
 CLUSTERS = [(112, 188, "BAYES", "bayes", "start"),
             (888, 168, "NEURO / LIFE", "neuro", "end"),
             (104, 596, "SYSTEMS", "systems", "start"),
-            (896, 596, "LANGUAGES", "learning", "end")]
+            (896, 596, "LEARNING", "learning", "end")]
 
 BAYER = [[0,8,2,10],[12,4,14,6],[3,11,1,9],[15,7,13,5]]
 
@@ -144,10 +144,12 @@ def build(theme):
 
     for r in F.rects("GABRIEL PEYTRAL BORJA", 48, 44, 4):
         put("", c["ink"], 1, *r)
+    for r in F.rects("COMPUTATIONAL AND MATHEMATICAL BIOLOGIST", 48, 88, 2):
+        put("", c["clusters"]["bayes"], 1, *r)
     hook = "I LIKE COMPUTERS, MATH AND LIFE SCIENCES."
-    for r in F.rects(hook, 48, 92, 2):
+    for r in F.rects(hook, 48, 114, 2):
         put("", c["soft"], 1, *r)
-    put("cur", c["clusters"]["learning"], 1, 48 + F.width(hook, 2) + 8, 92, 2 * PX, 14)
+    put("cur", c["clusters"]["learning"], 1, 48 + F.width(hook, 2) + 8, 114, 2 * PX, 14)
     plate("YOUR CONCEPT NETWORK IS A CONSTELLATION", W // 2, 590, 2)
     for r in F.rects("YOUR CONCEPT NETWORK IS A CONSTELLATION", W // 2, 590, 2, "middle"):
         put("", c["faint"], 1, *r)
