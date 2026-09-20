@@ -146,13 +146,10 @@ def build(theme):
         put("", c["ink"], 1, *r)
     for r in F.rects("COMPUTATIONAL AND MATHEMATICAL BIOLOGIST", 48, 88, 2):
         put("", c["clusters"]["bayes"], 1, *r)
-    hook = "(I LIKE COMPUTERS, MATH AND LIFE SCIENCES.)"
+    hook = "(I LIKE COMPUTERS, MATH AND LIFE SCIENCES)"
     for r in F.rects(hook, 48, 114, 2):
         put("", c["soft"], 1, *r)
     put("cur", c["clusters"]["learning"], 1, 48 + F.width(hook, 2) + 8, 114, 2 * PX, 14)
-    plate("YOUR CONCEPT NETWORK IS A CONSTELLATION", W // 2, 590, 2)
-    for r in F.rects("YOUR CONCEPT NETWORK IS A CONSTELLATION", W // 2, 590, 2, "middle"):
-        put("", c["faint"], 1, *r)
 
     # --- emit
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
