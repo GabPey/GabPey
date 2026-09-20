@@ -1,23 +1,31 @@
 <a href="https://github.com/GabPey">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GabPey/GabPey/main/dark_mode.svg">
-    <img alt="Gabriel Peytral Borja — profile card" src="https://raw.githubusercontent.com/GabPey/GabPey/main/light_mode.svg">
+    <img alt="Gabriel Peytral Borja — a constellation of what I work on" src="https://raw.githubusercontent.com/GabPey/GabPey/main/light_mode.svg">
   </picture>
 </a>
 
-### A bit more on the three
+### What these actually are
 
-**photodyn** — variational inference for fiber-photometry signals, written at the Abante Lab in
-Barcelona. Deep Markov models and hidden Markov models under one configurable package, with
-log-space forward–backward and Viterbi decoders checked against brute-force oracles.
+**photodyn.** Put a fiber into a brain, record the fluorescence while a drug takes hold, and you get
+a long noisy trace and an awkward question: when was anything actually happening, and what did the
+drug change? photodyn explains the trace as a handful of hidden states, so instead of arguing about
+where the interesting bumps are, you ask the model. I wrote it at the Abante Lab in Barcelona over
+the summer. The moment it felt real was when the fast decoder finally agreed with the brute-force
+one it was meant to replace.
 
-**The thesis** — a discrete fuzzy Takagi–Sugeno model of the electrical activity of the heart, on a
-microcontroller, generating ECG signals in real time: about 400% faster, with errors in the
-millisecond range or below.
+**The heart.** My bachelor's thesis was teaching a microcontroller to produce a heartbeat — a real
+ECG waveform, generated live from a fuzzy model of the heart's electrical activity rather than
+replayed from a recording. The whole point was cheapness: something that runs on a chip you can hold
+and still keeps up with a real rhythm. It ended up several times faster than the approach it
+replaced, with the timing errors down in the milliseconds.
 
-**Cove** — a multilingual concept graph you build yourself, drawn as a navigable 3D star atlas.
-Architecture, data model, NLP, rendering and design system are all mine. It exists because I wanted
-a better way to learn German.
+**Cove.** Every language app I've tried hands you a lesson tree and a streak counter. Cove does the
+opposite: you build your own map of concepts, carrying all the languages you speak at once, and the
+software's job is to ask good questions and remember the answers — you are the linguist, it is the
+scaffolding. The map renders as a star chart you can fly around, which is where the constellation up
+there comes from. I'm building it because I'm learning German and nothing out there worked the way I
+wanted to learn.
 
-Most of what I build lives in private repositories: lab code that isn't mine to publish, and one
-project that isn't ready yet.
+Most of my code is private: lab work that isn't mine to publish, and one project I'm not ready to
+show yet.
