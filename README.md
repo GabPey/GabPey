@@ -1,34 +1,27 @@
-# Hi there 👋 I'm Gabriel Peytral Borja (GabPey)
+<a href="https://github.com/GabPey">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GabPey/GabPey/main/dark_mode.svg">
+    <img alt="Gabriel Peytral Borja — profile card" src="https://raw.githubusercontent.com/GabPey/GabPey/main/light_mode.svg">
+  </picture>
+</a>
 
-Welcome to my GitHub! I’m a **Technology student** with a strong focus on **applied mathematics** and **computational modeling**. I’m passionate about leveraging **mathematics** and **computer science** to tackle complex problems, particularly in **system dynamics** and **artificial intelligence**.
+### Selected work
 
-### 🔭 I’m currently working on:
-- Research on **cardiac dynamics modeling** using **fuzzy logic** for **heart rate regulation**.
-- Developing **fuzzy control systems** on **microcontrollers** to simulate and analyze heart rhythms.
-- Projects that bridge **mathematics** and **AI** for real-world applications.
+- **ConceptVerse** — a multilingual concept graph you build yourself, rendered as a navigable 3D
+  star atlas. Solo build: architecture, data model, NLP pipeline, LLM integration, rendering, design
+  system. *Flutter · Dart · SQLite · spaCy*
+- **PhotoDMM** — generative state-space models of neural fiber-photometry recordings, for
+  drug-response profiling. Variational inference in Pyro, with log-space forward–backward and
+  Viterbi decoders validated against brute-force oracles.
+  *Abante Lab, Universitat de Barcelona — paper in preparation*
+- **A Takagi–Sugeno model of the heart** — a discrete fuzzy model of cardiac electrical activity,
+  on a microcontroller, generating ECG signals in real time: about 400% faster, with errors in the
+  millisecond range or below. *Bachelor's thesis, UNAM — funded by CONACYT*
 
-### 🌱 I’m currently learning:
-- **Advanced system dynamics** and their real-time applications.
-- Techniques in **AI** for improving **control systems** and simulations.
+Most of what I build lives in private repositories: research code that belongs to a lab, and one
+project that is not ready to be public yet. The card above is the honest summary.
 
-### 👯 I’m looking to collaborate on:
-- **Mathematical modeling** and **computational projects** related to **healthcare** or **system dynamics**.
-- Exploring **fuzzy logic** and **AI** in control systems.
+---
 
-### 🤔 I’m looking for help with:
-- **Optimization techniques** for enhancing the performance of **real-time models**.
-- Expanding the integration of **AI** in biological system simulations.
-
-### 💬 Ask me about:
-- **Cardiac modeling**, **fuzzy logic**, and **Takagi-Sugeno models**.
-- My current work on **real-time control systems** and simulations on microcontrollers.
-
-### 📫 How to reach me:
-- [Email](mailto:gab.peytral@domain.com)
-- [LinkedIn](https://www.linkedin.com/in/gab-peytral-borja/)
-
-### 😄 Pronouns:
-- He/Him
-
-### ⚡ Fun fact:
-- I enjoy **calisthenics** and I’m currently learning **French**!
+*Looking for a six-month research internship from February 2027 — statistical modelling or machine
+learning for health, in a lab or in industry.*
